@@ -6,7 +6,6 @@ phases:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
-      - apt-get install -y maven
   pre_build:
     commands:
       - echo Entered the pre_build phase...
@@ -14,7 +13,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - mvn  install 
+      - mvn package
   post_build:
     commands:
       - echo Entered the post_build phase...
