@@ -19,6 +19,6 @@ phases:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
 artifacts:
-  files:
-    - **/*
+  files: 
+    - '**/*'
   discard-paths: yes
