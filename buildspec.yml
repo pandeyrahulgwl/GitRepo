@@ -2,7 +2,7 @@ version: 0.2
 os     : linux
 env:
   variables:
-    JAVA_HOME: "/usr/lib/jvm/default-java"
+    JAVA_HOME: "/usr/lib/jvm/default-java/bin/java"
 
 phases:
   install:
