@@ -1,5 +1,5 @@
 version: 0.2
-
+os     : linux
 env:
   variables:
     JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
@@ -13,17 +13,16 @@ phases:
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-      - docker login –u User –p $LOGIN_PASSWORD
   build:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - mvn clean install
+      - mvn clean install 
   post_build:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
 artifacts:
   files:
-    - MyArtifacts/*.jar
+    - target/*.jar
   discard-paths: yes
