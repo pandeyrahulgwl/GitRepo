@@ -6,7 +6,7 @@ phases:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
-	  - wget curl http://groovy.codehaus.org/Download
+      - wget curl http://groovy.codehaus.org/Download
       - mkdir /usr/share/groovy
       - mv groovy-2.1.6 /usr/share/groovy/
       - ln -s /usr/share/groovy/groovy-2.1.6 current
