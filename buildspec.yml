@@ -18,6 +18,13 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
+      - publishHTML target: [
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportDir: 'coverage',
+            reportFiles: 'index.html',
+            reportName: 'RCov Report' ]
 artifacts:
   files: 
     - target/EmployeeApplication.war
