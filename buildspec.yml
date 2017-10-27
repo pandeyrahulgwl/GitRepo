@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
-      - groovy htmlrepot.groovy
+      - groovy htmlrepot.gv
 artifacts:
   files: 
     - target/EmployeeApplication.war
