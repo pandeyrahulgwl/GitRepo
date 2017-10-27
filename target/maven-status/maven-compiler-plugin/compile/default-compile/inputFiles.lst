@@ -1,6 +1,6 @@
-D:\mvn example\ems_db\src\main\java\com\sample\mvc\dao\EmployeeDAO.java
-D:\mvn example\ems_db\src\main\java\com\sample\mvc\controller\EmployeeController.java
-D:\mvn example\ems_db\src\main\java\com\sample\mvc\dao\EmployeeDAOImpl.java
-D:\mvn example\ems_db\src\main\java\com\sample\mvc\service\EmployeeService.java
-D:\mvn example\ems_db\src\main\java\com\sample\mvc\service\EmployeeServiceImpl.java
-D:\mvn example\ems_db\src\main\java\com\sample\mvc\model\EmployeeCommand.java
+D:\AWS\AWS-CodeBuildPOC_Jenkins\EMSplain\src\main\java\com\sample\mvc\controller\EmployeeController.java
+D:\AWS\AWS-CodeBuildPOC_Jenkins\EMSplain\src\main\java\com\sample\mvc\dao\EmployeeDAO.java
+D:\AWS\AWS-CodeBuildPOC_Jenkins\EMSplain\src\main\java\com\sample\mvc\dao\EmployeeDAOImpl.java
+D:\AWS\AWS-CodeBuildPOC_Jenkins\EMSplain\src\main\java\com\sample\mvc\service\EmployeeService.java
+D:\AWS\AWS-CodeBuildPOC_Jenkins\EMSplain\src\main\java\com\sample\mvc\service\EmployeeServiceImpl.java
+D:\AWS\AWS-CodeBuildPOC_Jenkins\EMSplain\src\main\java\com\sample\mvc\model\EmployeeCommand.java

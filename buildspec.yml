@@ -6,7 +6,7 @@ phases:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
-      - apt-get install groovy -y  
+    
   pre_build:
     commands:
       - echo Entered the pre_build phase...
@@ -19,8 +19,9 @@ phases:
     commands:
       - echo Entered the post_build phase...
       - echo Build completed on `date`
-      - groovy htmlrepot.gv
+    
 artifacts:
   files: 
     - target/EmployeeApplication.war
+    - target/site/cobertura/cobertura.xml 
   discard-paths: yes
