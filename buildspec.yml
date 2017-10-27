@@ -6,7 +6,7 @@ phases:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
-	  - mkdir /usr/share/groovy
+	  - sudo mkdir /usr/share/groovy
 	  - mv groovy-2.1.6 /usr/share/groovy/
 	  - ln -s /usr/share/groovy/groovy-2.1.6 current
 	  - export GROOVY_HOME=/usr/share/groovy/current
