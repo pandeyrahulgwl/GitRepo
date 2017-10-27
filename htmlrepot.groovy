@@ -3,6 +3,6 @@ publishHTML target: [
             allowMissing: false,
             alwaysLinkToLastBuild: false,
             keepAll: true,
-            reportDir: 'target/site/',
-            reportFiles: 'cobertura.xml',
+            reportDir: 'target/site/clover/',
+            reportFiles: 'index.html',
             reportName: 'RCov Report' ]
